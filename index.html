@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+	<head>
+	<title>Пасьянс «Плеяды»</title>
+	<link rel="stylesheet" type="text/css" href="gamepleiad.css" />
+	<script type="text/javascript" src="gamepleiad.min.js"></script>
+	<script type="text/javascript" src="jquery-1.4.min.js"></script>
+	</head>
+
+	<body>
+	<div id="gamefield">
+		<div id="column-10" class="cardsleft"><div class="spacel" ></div></div>
+		<div id="column-11" class="cardsright"><div class="spacer" ></div></div>
+		<div id="column-a">
+			<div id="column-a1">
+			<input id="bigb" type="button" value="Легко" onclick="GameStart(1)" />
+			<input id="bigb" type="button" value="Норма" onclick="GameStart(2)" />
+			<input id="bigb" type="button" value="Профи" onclick="GameStart(4)" />
+			</div>
+			<div id="column-a2">
+			<input id="bigb" type="button" value="Отменить ход" onclick="CancelMoveClick()" />
+			<input id="bigb" type="button" value="Показать ход" onclick="WhatMoveClick()" />
+			<input id="bigb" type="button" value="Сдать 10 карт" onclick="CardMClick(5)" />
+			</div>
+		</div>
+		<p id="textvalue">Выберите сложность (Легко - 1 масть, Норма - 2 масти, Профи - 4 масти)</p>
+		<div id="column-0" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-1" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-2" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-3" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-4" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-5" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-6" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-7" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-8" class="cardsdown"><div class="space" ></div></div>
+		<div id="column-9" class="cardsdown"><div class="space" ></div></div>
+		<div id="temp" class="cardsdown"></div>
+	</div>
+	</body>
+
+</html>

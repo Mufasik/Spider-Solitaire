@@ -1,0 +1,180 @@
+body {
+background: #006600;
+padding: 0;
+margin: 0;
+}
+
+#gamefield {
+text-align: center;
+color: #FFFFFF;
+width: 750px;
+height: auto;
+padding: 10px 25px 100px 25px;
+margin: auto;
+}
+
+#textvalue {
+float: left;
+width: 750px;
+height: 20px;
+}
+
+#bigb {
+margin: 5px 5px 0 5px;
+float: left;
+width: 100px;
+height: 30px;
+}
+
+#temp {
+width: 75px;
+position: fixed;
+left: 0px;
+top: 0px;
+}
+
+#column-a {
+width: 750px;
+float: left;
+}
+
+#column-a1 {
+float: left;
+}
+
+#column-a2 {
+float: right;
+}
+
+.card {
+float: left;
+top: -25px;
+width: 75px;
+height: 100px;
+position: relative;
+margin: -75px 0 0 0;
+}
+
+.cardsl {
+left: -25px;
+float: left;
+width: 75px;
+height: 100px;
+position: relative;
+margin: 0 0 0 -50px;
+}
+
+.cardsr {
+right: -25px;
+float: right;
+width: 75px;
+height: 100px;
+position: relative;
+margin: 0 -50px 0 0;
+}
+
+.cardsleft {
+position: relative;
+width: 375px;
+height: 100px;
+float: left;
+}
+
+.cardsright {
+position: relative;
+width: 375px;
+height: 100px;
+float: right;
+}
+
+.cardsdown {
+position: relative;
+width: 75px;
+float: left;
+}
+
+.space {
+background: url('gamepleiad.png') 0 -100px;
+float: left;
+width: 75px;
+height: 100px;
+position: relative;
+}
+
+.spacel {
+background: url('gamepleiad.png') 0 -200px;
+float: left;
+width: 75px;
+height: 100px;
+position: relative;
+}
+
+.spacer {
+background: url('gamepleiad.png') 0 -200px;
+float: right;
+width: 75px;
+height: 100px;
+position: relative;
+}
+
+.notholder {
+visibility: hidden;
+}
+
+.blank {background: url('gamepleiad.png') 0 0;}
+
+.color-1 {background: url('gamepleiad.png') -75px 0;}
+.color-2 {background: url('gamepleiad.png') -150px 0;}
+.color-3 {background: url('gamepleiad.png') -225px 0;}
+.color-4 {background: url('gamepleiad.png') -300px 0;}
+.color-5 {background: url('gamepleiad.png') -375px 0;}
+.color-6 {background: url('gamepleiad.png') -450px 0;}
+.color-7 {background: url('gamepleiad.png') -525px 0;}
+.color-8 {background: url('gamepleiad.png') -600px 0;}
+.color-9 {background: url('gamepleiad.png') -675px 0;}
+.color-10 {background: url('gamepleiad.png') -750px 0;}
+.color-11 {background: url('gamepleiad.png') -825px 0;}
+.color-12 {background: url('gamepleiad.png') -900px 0;}
+.color-13 {background: url('gamepleiad.png') -975px 0;}
+
+.color-21 {background: url('gamepleiad.png') -75px -100px;}
+.color-22 {background: url('gamepleiad.png') -150px -100px;}
+.color-23 {background: url('gamepleiad.png') -225px -100px;}
+.color-24 {background: url('gamepleiad.png') -300px -100px;}
+.color-25 {background: url('gamepleiad.png') -375px -100px;}
+.color-26 {background: url('gamepleiad.png') -450px -100px;}
+.color-27 {background: url('gamepleiad.png') -525px -100px;}
+.color-28 {background: url('gamepleiad.png') -600px -100px;}
+.color-29 {background: url('gamepleiad.png') -675px -100px;}
+.color-30 {background: url('gamepleiad.png') -750px -100px;}
+.color-31 {background: url('gamepleiad.png') -825px -100px;}
+.color-32 {background: url('gamepleiad.png') -900px -100px;}
+.color-33 {background: url('gamepleiad.png') -975px -100px;}
+
+.color-41 {background: url('gamepleiad.png') -75px -200px;}
+.color-42 {background: url('gamepleiad.png') -150px -200px;}
+.color-43 {background: url('gamepleiad.png') -225px -200px;}
+.color-44 {background: url('gamepleiad.png') -300px -200px;}
+.color-45 {background: url('gamepleiad.png') -375px -200px;}
+.color-46 {background: url('gamepleiad.png') -450px -200px;}
+.color-47 {background: url('gamepleiad.png') -525px -200px;}
+.color-48 {background: url('gamepleiad.png') -600px -200px;}
+.color-49 {background: url('gamepleiad.png') -675px -200px;}
+.color-50 {background: url('gamepleiad.png') -750px -200px;}
+.color-51 {background: url('gamepleiad.png') -825px -200px;}
+.color-52 {background: url('gamepleiad.png') -900px -200px;}
+.color-53 {background: url('gamepleiad.png') -975px -200px;}
+
+.color-61 {background: url('gamepleiad.png') -75px -300px;}
+.color-62 {background: url('gamepleiad.png') -150px -300px;}
+.color-63 {background: url('gamepleiad.png') -225px -300px;}
+.color-64 {background: url('gamepleiad.png') -300px -300px;}
+.color-65 {background: url('gamepleiad.png') -375px -300px;}
+.color-66 {background: url('gamepleiad.png') -450px -300px;}
+.color-67 {background: url('gamepleiad.png') -525px -300px;}
+.color-68 {background: url('gamepleiad.png') -600px -300px;}
+.color-69 {background: url('gamepleiad.png') -675px -300px;}
+.color-70 {background: url('gamepleiad.png') -750px -300px;}
+.color-71 {background: url('gamepleiad.png') -825px -300px;}
+.color-72 {background: url('gamepleiad.png') -900px -300px;}
+.color-73 {background: url('gamepleiad.png') -975px -300px;}
