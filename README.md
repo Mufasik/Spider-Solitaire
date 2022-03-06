@@ -5,6 +5,6 @@ https://mufasik.github.io/Spider-Solitaire/
 
 Создавал в процессе изучения HTML CSS JavaScript и jQuery в 2010 году
 
-Это была пасхалка на сайте (сайт закрыт в 2020)
+Это была пасхалка на сайте
 
-Очень помог https://www.w3schools.com
+Обучение https://www.w3schools.com
